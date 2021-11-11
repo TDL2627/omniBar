@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,40 +11,37 @@
     <title>OMNI BAR</title>
 </head>
 <body>
-    
-    <button id="core" onclick="myFunction()"><img src="https://img.icons8.com/material-outlined/24/000000/play--v1.png"/></button>
-
-<div id="omniBar">
-    <nav>
-        <ul>
-            <li class="tabs one">
-                <a href="home.html"></a>
-            </li>
-            <li class="tabs two" >
+    <button id="core" onclick="myFunction()"><img
+            src="https://img.icons8.com/material-outlined/24/000000/play--v1.png" /></button>
+    <div id="omniBar">
+        <nav>
+            <a class="tabs one" href="home.html"> home</a>
+            <a class="tabs two">
                 about
-            </li>
-            <li class="tabs three">
+            </a>
+            <a class="tabs three">
                 contact
-            </li>
-            <li class="tabs four">
+            </a>
+            <a class="tabs four">
                 projects
-            </li>
-        </ul>
-    </nav>
-</div>
- 
+            </a>
+
+        </nav>
+    </div>
+
     <script>
         function myFunction() {
-  var x = document.getElementById("omniBar");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-// anime
-AOS.init();
+            var x = document.getElementById("omniBar");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+        // anime
+        AOS.init();
 
     </script>
 </body>
+
 </html>

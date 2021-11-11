@@ -1,0 +1,47 @@
+#core{
+    position: fixed;
+    top:280px;
+    left: 695px;
+    padding: 10px;
+    border-radius: 25px;
+}
+#omniBar{
+    width: 100%;
+    
+}
+ul{
+    list-style: none;
+}
+.tabs{
+     border: 2px solid salmon;
+     width: 100px;
+     margin: 30px;
+     padding: 20px;
+     cursor: default;
+}
+.tabs:hover{
+    border: solid 5px green;
+    border-radius: 50px;
+}
+.one{
+    position: fixed;
+    top:185px;
+    left: 500px;
+}
+.two{ 
+    position: fixed;
+    top: 185px;
+    left:730px;
+}
+.three{ 
+    position: fixed;
+    top: 300px;
+    left:730px;
+}
+.four{ 
+    position: fixed;
+    top: 300px;
+    left:500px;
+}
+
+/* PAGES */

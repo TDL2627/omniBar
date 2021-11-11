@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>OMNI BAR</title>
+</head>
+<body>
+    
+    <button id="core" onclick="myFunction()"><img src="https://img.icons8.com/material-outlined/24/000000/play--v1.png"/></button>
+
+<div id="omniBar">
+    <nav>
+        <ul>
+            <li class="tabs one">
+                <a href="home.html"></a>
+            </li>
+            <li class="tabs two" >
+                about
+            </li>
+            <li class="tabs three">
+                contact
+            </li>
+            <li class="tabs four">
+                projects
+            </li>
+        </ul>
+    </nav>
+</div>
+ 
+    <script>
+        function myFunction() {
+  var x = document.getElementById("omniBar");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+// anime
+AOS.init();
+
+    </script>
+</body>
+</html>

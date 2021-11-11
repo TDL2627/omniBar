@@ -35,7 +35,7 @@
     background-color: #4BB543;
     border: 2.5px dashed #4BB543;
   }
-  
+ 
 #omniBar{
     width: 100%;
 }
@@ -102,7 +102,10 @@ a{
     top: 300px;
     left:500px;
 }
-
+h1{
+    text-align: center;
+    color: seagreen;
+}
 /* PAGES */
 
 

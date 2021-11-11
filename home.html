@@ -3,10 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <h1>welcome home</h1>
+
+    <div class="page-wrapper">
+        <div class="circle-wrapper">
+          <div class="success circle"></div>
+          <div class="icon">
+            <button id="core" onclick="myFunction()"><img
+                src="https://img.icons8.com/material-outlined/24/000000/play--v1.png" /></button>
+          </div>
+        </div>
+        <div id="omniBar">
+            <nav>
+                <a class="tabs one" href="home.html"> home</a>
+                <a class="tabs two" href="about.html">
+                    about
+                </a>
+                <a class="tabs three" href="contact.html">
+                    contact
+                </a>
+                <a class="tabs four" href="project.html">
+                    projects
+                </a>
+    
+            </nav>
+        </div>
+    
+        <script>
+            function myFunction() {
+                var x = document.getElementById("omniBar");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+            // anime
+            AOS.init();
+    
+        </script>
 </body>
 </html>

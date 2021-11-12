@@ -53,6 +53,8 @@ a{
      padding: 20px;
      cursor: default;
      text-align: center;
+     color: white;
+     background-color: black;
 }
 .one:hover{
     border: solid 5px green;
@@ -107,8 +109,69 @@ h1{
     color: seagreen;
 }
 /* PAGES */
+#index{
+  background-color: black;
+}
+#home{
+  background-color: red;
+}
+#project{
+  background-color: yellow;
+}
+#contact{
+  background-color: blue;
+}
+#about{
+  background-color: gray;
+}
 
+/* media queries */
+/* media queries */
+@media screen and (max-width: 600px) {
+  #core{
+    position: fixed;
+   top:275px;
+   left: 130px;
+   background: none;
+   border: none;
+   border-radius: 25px;
+   padding: 10px;
+}
 
+.circle-wrapper {
+   position: fixed;
+   top:255px;
+   left: 113px;
+   width: 50px;
+   height: 50px;
+   float: left;
+   margin: 10px;
+ }
+ .one{
+  position: fixed;
+  top:185px;
+  left: 5px;
+  width: 50px;
+}
+.two{ 
+  position: fixed;
+  top: 185px;
+  left:150px;
+  width: 50px;
+}
+.three{ 
+  position: fixed;
+  top: 300px;
+  left:5px;
+  width: 50px;
+}
+.four{ 
+  position: fixed;
+  top: 300px;
+  left:150px;
+  width: 50px;
+}
+}
 /* animation */
 .wobble-ver-right {
 	-webkit-animation: wobble-ver-right 0.8s both;
